@@ -1,0 +1,4 @@
+
+add_executable(test_another_delegate test_another_delegate.cpp)
+target_link_libraries(test_another_delegate gtest gtest_main)
+

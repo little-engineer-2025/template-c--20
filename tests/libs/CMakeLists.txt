@@ -1,0 +1,2 @@
+add_subdirectory(libanother)
+add_subdirectory(libsomething)

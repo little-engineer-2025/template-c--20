@@ -1,0 +1,41 @@
+# Ignore by default
+**/*
+
+# Add Base files
+!LICENSE
+!README.md
+!CMakeLists.txt
+!.gitignore
+!.dockerignore
+!toolbox.sh
+
+# Add libs directory
+!libs
+!libs/**
+!libs/**/*
+
+# Add app directory
+!app
+!app/**
+!app/**/*
+
+# Add tests directory
+!tests
+!tests/**
+!tests/**/*
+
+# Add cmake tools
+!cmake
+!cmake/**
+!cmake/**/*
+
+# Add .github
+!.github
+!.github/**
+!.github/**/*
+
+# Third party submodules
+!third_party
+!third_party/**
+!third_party/**/*
+

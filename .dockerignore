@@ -1,0 +1,30 @@
+# Ignore by default
+**/*
+
+# Add Base files
+!README.md
+!CMakeList.txt
+!.gitignore
+!.dockerignore
+!toolbox.sh
+
+# Add src directory
+!src
+!src/**
+!src/**/*
+
+# Add test directory
+!test
+!test/**
+!test/**/*
+
+# Add cmake tools
+!cmake
+!cmake/**
+!cmake/**/*
+
+# Add .github
+!.github
+!.github/**
+!.github/**/*
+
