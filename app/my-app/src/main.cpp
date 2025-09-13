@@ -2,6 +2,6 @@
 #include "my-app.hpp"
 
 int main() {
-    std::cout << "Hello world!" << std::endl;
+    std::cout << "Hello world, application!" << std::endl;
 }
 
