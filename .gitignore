@@ -34,6 +34,11 @@
 !.github/**
 !.github/**/*
 
+# Add docs directory
+!docs
+!docs/**
+!docs/**/*
+
 # Third party submodules
 !third_party
 !third_party/**

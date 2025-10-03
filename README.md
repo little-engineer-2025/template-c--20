@@ -37,6 +37,12 @@ Day to day rules:
 
 TODO
 
+## Documentation
+
+- [Contributing guideline](docs/CONTRIBUTING.md).
+- [Security issue guidelines](docs/SECURITY.md).
+- [Triage guidelines](docs/TRIAGE.md).
+
 ## Books and references
 
 - [Algorithms in C++](https://www.amazon.com/Algorithms-Parts-1-4-Fundamentals-Structure/dp/0201350882).
