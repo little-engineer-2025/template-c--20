@@ -11,5 +11,5 @@ target_link_libraries(
 )
 
 include(GoogleTest)
-# gtest_discover_tests(main_test)
+gtest_discover_tests(my_app_main_test)
 

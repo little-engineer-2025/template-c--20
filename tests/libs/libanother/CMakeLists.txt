@@ -2,3 +2,5 @@
 add_executable(lib_another_another_delegate_test another_delegate_test.cpp)
 target_link_libraries(lib_another_another_delegate_test gtest gtest_main)
 
+include(GoogleTest)
+gtest_discover_tests(lib_another_another_delegate_test)

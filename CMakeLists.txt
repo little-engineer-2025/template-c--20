@@ -24,14 +24,17 @@ include(GNUInstallDirs)
 
 # TODO Integrate googletest
 
+# https://google.github.io/googletest/quickstart-cmake.html
+
 # Google tests configuration
 enable_testing()
 
 # Define the path to Google Test
 set(GTEST_DIR "${CMAKE_CURRENT_SOURCE_DIR}/third_party/googletest/googletest")
+set(GOOGLETEST_VERSION "1.17.0")
 
 # Add Google Test to the build
-# add_subdirectory(${GTEST_DIR} ${CMAKE_CURRENT_BINARY_DIR}/googletest)
+add_subdirectory(${GTEST_DIR} ${CMAKE_CURRENT_BINARY_DIR}/googletest)
 
-# add_subdirectory(tests)
+add_subdirectory(tests)
 
